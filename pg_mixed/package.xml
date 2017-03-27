@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>pg_mixed</name>
+  <version>0.0.0</version>
+  <description>Try mixing cpp and python nodes in the same package</description>
+  <maintainer email="ssrivatsa@houstonmechatronics.com">Siddharth Srivatsa</maintainer>
+  <license>Houston Mechatronics Inc.</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>python_cmake_module</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
